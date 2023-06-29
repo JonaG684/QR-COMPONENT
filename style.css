@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -15,12 +15,19 @@ body {
 }
 
 .attribution a:last-child {
-  color: #994343;
+  color: #bb2577;
   text-decoration: none;
 }
 
 .attribution a:last-child:hover {
   text-decoration: underline;
+}
+
+.mlb-logo {
+  font-size: 100px;
+  color:color-mix(in srgb, rgb(0, 0, 0) 50%, rgb(170, 18, 18) 50%);
+  margin: 20px;
+  align-items: center;
 }
 
 .qr-code-container {
