@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para la clase 'attribution' */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 60%, 58%);
+    text-decoration: none;
+  }
+  
+  
