@@ -1,23 +1,60 @@
-/* styles.css */
-
-/* Estilos para el cuerpo del documento */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 20px;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.attribution a:first-child {
+  color: #381aa1;
+  text-decoration: none;
+}
+
+.attribution a:first-child:hover {
+  text-decoration: underline;
+}
+
+.attribution a:last-child {
+  color: #994343;
+  text-decoration: none;
+}
+
+.attribution a:last-child:hover {
+  text-decoration: underline;
+}
+
+.qr-code-container {
+  margin: 20px auto;
+  max-width: 100%;
+  width: 275px;
+  height: 275px;
+  background-color: #321d91;
+  border: 1px solid #080808;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Nueva propiedad agregada */
+}
+
+.qr-code-container p {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 10px; /* Nueva propiedad agregada */
+}
+
+.mlb-background {
+  background-image: url(https://media1.giphy.com/media/TQEaGvuKLiLUk/giphy.gif?cid=ecf05e47f2n19w1d4yxwdxn4rspbjr0bwr48b3ey0a467azf&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+  background-size: cover;
+  animation: background-scroll 20s linear infinite;
+}
+
+@keyframes background-scroll {
+  0% {
+    background-position: 0 0;
   }
-  
-  /* Estilos para la clase 'attribution' */
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-    margin-top: 20px;
+  100% {
+    background-position: 100% 0;
   }
-  
-  .attribution a {
-    color: hsl(228, 60%, 58%);
-    text-decoration: none;
-  }
-  
+}
   
