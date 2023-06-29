@@ -24,7 +24,7 @@ body {
 }
 
 .qr-code-container {
-  margin: 20px auto;
+  margin: 150px auto;
   max-width: 100%;
   width: 275px;
   height: 275px;
@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; /* Nueva propiedad agregada */
+  flex-direction:initial; /* Nueva propiedad agregada */
 }
 
 .qr-code-container p {
